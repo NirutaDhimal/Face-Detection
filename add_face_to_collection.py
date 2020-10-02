@@ -8,7 +8,7 @@ client = boto3.client('rekognition')
 collection_id = input("Enter the CollectionId of the collection where you want to add photos: ")
 
 while (p == "y"):
-    photo = input("Enter the path and file name of the image you want to add:")
+    photo = input("Enter the path and file name of the image you want to add: ")
 
     file_name = open(photo , 'rb').read()
     response = client.index_faces(

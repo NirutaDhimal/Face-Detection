@@ -13,3 +13,5 @@ add_face_to_collection.py
 
 list_collection.py shows the list of collections you have.
 
+delete_collection.py deletes the collection you specify.
+
