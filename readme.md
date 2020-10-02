@@ -11,3 +11,5 @@ Rekognition API. If you are building an employee detection system then you
 can add faces of your employees to the employee collection using 
 add_face_to_collection.py 
 
+list_collection.py shows the list of collections you have.
+
